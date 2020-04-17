@@ -1,0 +1,72 @@
+\newcommand*{\getTitleGer}{Title}
+\newcommand*{\getFaculty}{Faculty}
+\newcommand*{\getMajor}{Major}
+\newcommand*{\getAuthor}{Author}
+\newcommand*{\getAuthorId}{AuthorId}
+\newcommand*{\getDuration}{DD.MM.20YY to DD.MM.20YY}
+\newcommand*{\getEmplyer}{Employer}
+\newcommand*{\getContact}{Contact}
+\newcommand*{\getContactTitle}{ContactTitle}
+
+
+
+
+
+
+\begin{titlepage}
+    \oddsidemargin=\evensidemargin\relax
+    \textwidth=\dimexpr\paperwidth-2\evensidemargin-2in\relax
+    \hsize=\textwidth\relax
+    
+    \centering
+    
+    \IfFileExists{pictures/publicdomain.png}{%
+    \includegraphics[height=20mm]{pictures/publicdomain.png}
+    \vspace*{10mm}
+    }
+
+    \line(1,0){400}
+
+    \vspace{0,5cm}
+    
+    {\huge \getTitleGer{}}
+    
+    \vspace{1cm}
+    
+    \textbf{\getDuration{}}
+    
+    \vspace{1cm}
+    
+    \getAuthor{}
+    \vspace{0,25cm}
+    
+    \getAuthorId{}
+    \vspace{0,5cm}
+    
+    \getFaculty{}
+    \vspace{0,25cm}
+    
+    \getMajor{}
+    \vspace{1cm}
+    
+    bei 
+    
+    \vspace{1cm}
+    
+    \getEmplyer{}
+    
+    \vspace{0,5cm}
+    
+    
+    \textbf{Kontakt:}
+    
+    \vspace{0,25cm}
+    
+
+    \getContact{}
+    
+    \vspace{0,25cm}
+    
+    \getContactTitle{}
+  
+\end{titlepage}
